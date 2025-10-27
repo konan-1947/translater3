@@ -4,7 +4,7 @@ import os
 
 # Lấy đường dẫn thư mục chứa file này
 current_dir = os.path.dirname(os.path.abspath(__file__))
-img_path = os.path.join(current_dir, 'img', 'pure.png')
+img_path = os.path.join(current_dir, 'input', 'pure.png')
 
 img = Image.open(img_path)
 model = LatexOCR()
