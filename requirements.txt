@@ -1,0 +1,15 @@
+# Core dependencies
+matplotlib>=3.7.0
+Pillow>=10.0.0
+pix2tex>=0.1.2
+
+# PDF processing
+PyMuPDF>=1.23.0
+reportlab>=4.0.0
+
+# OCR and image processing
+pytesseract>=0.3.10
+opencv-python>=4.8.0
+
+# Additional utilities
+numpy>=1.24.0
